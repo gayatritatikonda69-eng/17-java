@@ -1,0 +1,60 @@
+1. Which class in Spring simplifies database operations by eliminating boilerplate code?
+Spring JDBC
+JdbcClient
+JdbcTemplate
+DataSourceUtils
+SimpleJdbcInsert
+2. Which annotation is used to declare a method as transactional in Spring?
+Spring Transaction
+@Transactional
+@Transaction
+@EnableTransactionManagement
+@Tx
+3. What happens when a RuntimeException is thrown inside a @Transactional method?
+Spring Transaction
+Transaction is committed
+Transaction is rolled back by default
+The exception is ignored
+The transaction is paused
+4. Which method of JdbcTemplate is used to execute an INSERT, UPDATE, or DELETE?
+Spring JDBC
+query()
+update()
+executeUpdate()
+modify()
+5. What is the purpose of `BeanPropertyRowMapper` in Spring JDBC?
+Spring JDBC
+To map JSON to Java object
+To map ResultSet columns to JavaBean properties
+To convert XML to Java object
+To create database tables
+6. Which dependency is required to use `JdbcTemplate` in Spring Boot?
+Spring Boot
+spring-boot-starter-data-jpa
+spring-boot-starter-jdbc
+spring-boot-starter-jooq
+spring-boot-starter-data-mongodb
+7. How can you make a transaction roll back for a specific checked exception?
+Spring Transaction
+Use rollbackFor attribute in @Transactional
+Catch the exception and rethrow RuntimeException
+It is not possible
+Use @Transactional(noRollbackFor=Exception.class)
+8. What is the default propagation level of @Transactional?
+Spring Transaction
+REQUIRES_NEW
+SUPPORTS
+REQUIRED
+MANDATORY
+9. Which annotation is used to mark a class as a DAO in Spring (best practice)?
+Spring
+@Component
+@Service
+@Repository
+@Dao
+10. What will happen if you call a non‑transactional method from a transactional method in the same service class?
+Spring Transaction
+The called method runs in the same transaction
+The called method runs in a new transaction
+The called method runs without a transaction
+An exception is thrown
